@@ -1,0 +1,15 @@
+Hola Pablo,
+En este proyecto he intentado explicar las funcionalidades de la página a nivel de usuario 
+desde el propio menú para así poder verlo a medida que avanzas. Te he adjuntado
+los achivos de DDL y DML de la base de datos y un achivo con las tablas temporales necesarias 
+para algunas de las estadísticas, junto a los achivos de los 2 packages. Me hubiese gustado haberte
+completado la tercera parte opcional del proyecto, pero con mi ordenado consumo mucho tiempo para 
+a avanzar en muy poco, aún así he intentado realizarte un paginador en una de las estadísticas, 
+aunque seguro que no es la manera más óptima de realizarlo, espero que compartas la manera de 
+realizarlo, me he quedado con mucha intriga.
+
+Siento que en esta 3a evaluación se me han escapado más conceptos sobre la asignatura que de lo normal,
+he pensado que durante este verano podría mirarme los temas que nos han faltado por ver ya que me hubiese
+gustado implementarlos en el proyecto.
+
+Un saludo :)

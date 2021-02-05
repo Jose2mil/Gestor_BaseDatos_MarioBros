@@ -1,0 +1,276 @@
+@font-face {
+    font-family: SuperMarioBros;
+    src: url("../tiposDeLetra/SuperMarioBros.ttf");
+}
+    
+html,body {
+margin:0px;
+min-height:100%;
+}
+
+body  {
+    background-color:   #81e0fe;
+    background-image: url("../imagenes/FondoInicio.jpg");
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    font-family:        Verdana, Geneva, Tahoma, sans-serif;
+    font-size:          medium;
+    margin:             0;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+header img{
+    height: auto;
+}
+
+header#normal img{
+    width: 30%;
+}
+
+header#gestion img{
+    width: 46%;
+}
+
+header#estadistica img{
+    width: 40%;
+}
+
+#footer {
+    text-align: center;
+    padding: 2%;
+}
+
+#footer #botonAtras {
+    border-radius: 90px;
+    border: 5px solid #ee5bfb;
+    background-color: #8d14c5;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 130%;
+    padding: 2px 4px;
+}
+
+nav {
+    margin: 10px;
+    text-align: center;
+}
+
+nav ul {
+    margin: 0px;
+    list-style-type: none;
+    padding: 5px 0px 5px 0px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 20px 15px 20px 15px;
+    border-radius: 180px;
+    border: 2px solid #d96c19;
+    background-color: #ffc21a;
+    font-family: SuperMarioBros;
+    font-size: 120%;
+}
+
+nav ul li a{
+    padding: 40px;
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li:hover {
+    border-color: #e76400;
+    background-color: #ffbb00;
+    font-size: 140%;
+}
+
+.imagenEntidad {
+    padding: 5px;
+    border: 5px solid white;
+    border-radius: 20px;
+    margin: 0 auto;
+    display: block;
+    background-color: #292a2d;
+    width: auto;
+    height: 160px;
+}
+
+.aventura, .aventura legend {
+    background: #ffc21a;
+    border: 5px solid #d96c19;
+}
+
+.plataforma, .plataforma legend {
+    background: #909090;
+    border: 5px solid #777777;
+}
+
+#contenedorGrafica, #contenedorEstadistica, #contenedorEstadistica legend, #contenedorEstadistica input{
+    background: #5764d6;
+    border: 5px solid #8d98ff;
+    text-align: center;
+}
+
+#contenedorGrafica h2 {
+    margin-bottom: 5%;
+    color: #8d98ff;
+}
+
+#opcionesGrafica, #opcionesGrafica legend {
+    background: #d65757;
+    border: 5px solid #ffbdbd;
+    text-align: center;
+}
+
+#contenedorEstadistica input {
+    background: #5764d6;
+    border: 2px solid #8d98ff;
+    color: white;
+    width: 100%;
+}
+
+#contenedorEstadistica input:hover {
+    background: #4150d3;
+    height: 25px;
+}
+
+#contenedorEstadistica td, #contenedorEstadistica th, #contenedorEstadistica caption {
+    border-bottom: 5px solid #739dff;
+    padding: 1% 2px;
+}
+
+#contenedorEstadistica table {
+    overflow: hidden;
+    border-collapse: collapse;
+    margin: 5% auto;
+    color: white;
+}
+
+#contenedorEstadistica table caption {
+    font-size: 150%;
+}
+
+#opcionesGrafica input, #opcionesGrafica select {
+    border: 3px solid #ffbdbd;
+}
+
+.aventura, .plataforma, .error, #opcionesGrafica, #contenedorGrafica, #contenedorEstadistica {
+    border-radius: 20px;
+    margin: 30px 0px;
+    padding: 5% 5% 5% 5%;
+    opacity: 95%;
+}
+
+.error{
+    background: rgb(185, 14, 14);
+    border: 5px solid rgb(160, 0, 0);
+    color: white;
+}
+
+.error ul{
+    list-style-image: url("../imagenes/Moneda.png");
+}
+
+legend {
+    border-radius: 15px;
+    font-size: 200%;
+    font-weight: bold;
+    padding: 0 3% 0 3%;
+    font-family: SuperMarioBros;
+}
+
+h2{
+    font-family: SuperMarioBros;
+}
+
+.aventura legend, .aventura h2{
+    color: #af5714;
+}
+
+.aventura h3{
+    color: #c85c09;
+}
+
+.plataforma legend, .plataforma h2{
+    color: #666666;
+}
+
+.plataforma h3{
+    color: #505050;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+.plataforma table td, .plataforma table th{
+    border: 2px solid #666666;
+}
+
+.aventura table td, .aventura table th{
+    border: 2px solid #af5714;
+}
+
+
+input, textarea, select{
+    border-radius: 20px;
+    background-color: beige;
+    color: black;
+}
+
+textarea{
+    padding: 7px;
+}
+
+input[type=text]{
+    width: 21%;
+    padding: 0 5px 0 5px;
+}
+
+.aventura input, .aventura textarea{
+    border: 3px solid #d96c19;
+}
+
+.plataforma input, .plataforma textarea{
+    border: 3px solid #777777;
+}
+
+.plataforma input:read-only, .plataforma textarea:read-only, 
+.aventura input:read-only, .aventura textarea:read-only{
+    border-color:green;
+}
+
+.plataforma input[type=submit], .aventura input[type=submit], input[type=submit]{
+    border-color:rgb(15, 224, 15);
+}
+
+.plataforma input:disabled, .aventura input:disabled{
+    border-color:red;
+    opacity: 40%;
+}
+
+form, div.aventura, div.plataforma, .error, #contenedorGrafica, div#contenedorEstadistica{
+    color: white;
+    margin: 0 7% 5% 7%;
+}
+
+.columnaDerecha{
+    margin-left: 30px;
+}
+
+.filaFormulario{
+    display: block;
+    margin: 2% 0 2% 0;
+}
+
+#labelDescripcion{
+    margin: 0 140px 0 0;
+}
+
+.aventuraTabla {
+    width: 100%;
+}
